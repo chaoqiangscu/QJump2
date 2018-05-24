@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Q弹</string>
+    <string name="welcome">欢迎您参加我们的实验！</string>
+    <string name="introduction">我们的实验旨在研究人对于振动的主观体验；体验无对错之分，请根据您的实际感受进行回答。谢谢您的配合！</string>
+    <string name="personal_information">请填写下您的个人信息：</string>
+    <string name="page2_tip1">请自由按压下列按钮，体验其振动反馈。</string>
+    <string name="page2_tip2">如果您体验到两种振感存在某种差别，请按“Next”键继续。</string>
+    <string name="page3_tip1">如果说按键1和2在“弹性”感觉上有差异，你认为哪个按键的振感更“Q弹”？请再次按键体验（体验次数不限）后做出选择：</string>
+    <string name="page4_tip1">请自由体验下列按钮A~F，根据“Q弹”的感觉和程度与蓝色按钮进行比较；回答：A~F的“弹性”分别更接近1还是2？</string>
+    <string name="page5_tip1">请自由体验下列按钮G~L，根据“Q弹”的感觉和程度与蓝色按钮进行比较；回答： G~L的“弹性”分别更接近1还是2？</string>
+</resources>
