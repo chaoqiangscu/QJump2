@@ -17,7 +17,7 @@ public class PlayerUtilFromSdcardSimpal {
     public SoundPool soundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
     public Map<String, Integer> map = new HashMap<String, Integer>();
 
-    private File mFilePath = new File(Environment.getExternalStorageDirectory(),"AAC-QJump2" + File.separator + "信号");
+    private File mFilePath = new File(Environment.getExternalStorageDirectory(),"AAC-QJump2" + File.separator + "signal");
     private String mBasePath = mFilePath.getPath();
 
     private String mFirstPath = mBasePath + File.separator + "1.wav";
@@ -46,14 +46,6 @@ public class PlayerUtilFromSdcardSimpal {
     private PlayerUtilFromSdcardSimpal() {
     }
 
-    /*public void ini(){
-        map1.put("11", soundPool1.load(Environment.getExternalStorageDirectory()+File.separator+"AAC-WAV"+File.separator+"1.wav", 1));
-        map1.put("21", soundPool1.load(Environment.getExternalStorageDirectory()+File.separator+"AAC-WAV"+File.separator+"2.wav", 1));
-        map2.put("3", soundPool2.load(Environment.getExternalStorageDirectory()+File.separator+"AAC-WAV"+File.separator+"3.wav", 1));
-        map2.put("4", soundPool2.load(Environment.getExternalStorageDirectory()+File.separator+"AAC-WAV"+File.separator+"4.wav", 1));
-        map3.put("5", soundPool3.load(Environment.getExternalStorageDirectory()+File.separator+"AAC-WAV"+File.separator+"5.wav", 1));
-        map3.put("6", soundPool3.load(Environment.getExternalStorageDirectory()+File.separator+"AAC-WAV"+File.separator+"6.wav", 1));
-    }*/
     public void ini(){
         map.put("1", soundPool.load(mFirstPath, 1));
         map.put("2", soundPool.load(mSecondPath, 1));
@@ -113,32 +105,32 @@ public class PlayerUtilFromSdcardSimpal {
 
     public void play9(){
         //map.put("4", soundPool.load(MyApplication.getContext(), R.raw.forth, 1));
-        soundPool.play(map.get("8"), 1.0f, 1.0f, 0, 0, 1);
+        soundPool.play(map.get("9"), 1.0f, 1.0f, 0, 0, 1);
     }
 
     public void play10(){
         //map.put("4", soundPool.load(MyApplication.getContext(), R.raw.forth, 1));
-        soundPool.play(map.get("8"), 1.0f, 1.0f, 0, 0, 1);
+        soundPool.play(map.get("10"), 1.0f, 1.0f, 0, 0, 1);
     }
 
     public void play11(){
         //map.put("4", soundPool.load(MyApplication.getContext(), R.raw.forth, 1));
-        soundPool.play(map.get("8"), 1.0f, 1.0f, 0, 0, 1);
+        soundPool.play(map.get("11"), 1.0f, 1.0f, 0, 0, 1);
     }
 
     public void play12(){
         //map.put("4", soundPool.load(MyApplication.getContext(), R.raw.forth, 1));
-        soundPool.play(map.get("8"), 1.0f, 1.0f, 0, 0, 1);
+        soundPool.play(map.get("12"), 1.0f, 1.0f, 0, 0, 1);
     }
 
     public void play13(){
         //map.put("4", soundPool.load(MyApplication.getContext(), R.raw.forth, 1));
-        soundPool.play(map.get("8"), 1.0f, 1.0f, 0, 0, 1);
+        soundPool.play(map.get("13"), 1.0f, 1.0f, 0, 0, 1);
     }
 
     public void play14(){
         //map.put("4", soundPool.load(MyApplication.getContext(), R.raw.forth, 1));
-        soundPool.play(map.get("8"), 1.0f, 1.0f, 0, 0, 1);
+        soundPool.play(map.get("14"), 1.0f, 1.0f, 0, 0, 1);
     }
 
     public void releaseAll(){

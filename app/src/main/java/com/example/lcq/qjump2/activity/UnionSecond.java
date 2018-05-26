@@ -45,21 +45,21 @@ public class UnionSecond extends AppCompatActivity implements View.OnClickListen
 
         ImageButton mSignalOne = (ImageButton)findViewById(R.id.signaloneu2);
         ImageButton mSingnaltwo = (ImageButton)findViewById(R.id.signaltwou2);
-        ImageButton mSingnala = (ImageButton)findViewById(R.id.g);
-        ImageButton mSingnalb = (ImageButton)findViewById(R.id.h);
-        ImageButton mSingnalc = (ImageButton)findViewById(R.id.i);
-        ImageButton mSingnald = (ImageButton)findViewById(R.id.j);
-        ImageButton mSingnale = (ImageButton)findViewById(R.id.k);
-        ImageButton mSingnalf = (ImageButton)findViewById(R.id.l);
+        ImageButton mSingnalg = (ImageButton)findViewById(R.id.g);
+        ImageButton mSingnalh = (ImageButton)findViewById(R.id.h);
+        ImageButton mSingnali = (ImageButton)findViewById(R.id.i);
+        ImageButton mSingnalj = (ImageButton)findViewById(R.id.j);
+        ImageButton mSingnalk = (ImageButton)findViewById(R.id.k);
+        ImageButton mSingnall = (ImageButton)findViewById(R.id.l);
 
         ClickUtils.clickAction(mSignalOne,R.drawable.signaloneup,R.drawable.signalonedown,1);
         ClickUtils.clickAction(mSingnaltwo,R.drawable.signaltwoup,R.drawable.signaltwodown,2);
-        ClickUtils.clickAction(mSingnala,R.drawable.gup,R.drawable.gdown,9);
-        ClickUtils.clickAction(mSingnalb,R.drawable.hup,R.drawable.hdown,10);
-        ClickUtils.clickAction(mSingnalc,R.drawable.iup,R.drawable.idown,11);
-        ClickUtils.clickAction(mSingnald,R.drawable.jup,R.drawable.jdown,12);
-        ClickUtils.clickAction(mSingnale,R.drawable.kup,R.drawable.kdown,13);
-        ClickUtils.clickAction(mSingnalf,R.drawable.lup,R.drawable.ldown,14);
+        ClickUtils.clickAction(mSingnalg,R.drawable.gup,R.drawable.gdown,9);
+        ClickUtils.clickAction(mSingnalh,R.drawable.hup,R.drawable.hdown,10);
+        ClickUtils.clickAction(mSingnali,R.drawable.iup,R.drawable.idown,11);
+        ClickUtils.clickAction(mSingnalj,R.drawable.jup,R.drawable.jdown,12);
+        ClickUtils.clickAction(mSingnalk,R.drawable.kup,R.drawable.kdown,13);
+        ClickUtils.clickAction(mSingnall,R.drawable.lup,R.drawable.ldown,14);
 
     }
 
